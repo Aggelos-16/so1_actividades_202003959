@@ -1,0 +1,8 @@
+[Unit]
+Description=Actividad 4 - Sistemas Operativos 1 - 202003959
+
+[Service]
+ExecStart=/usr/local/bin/actividad4_202003959_service.sh
+
+[Install]
+WantedBy=multi-user.target
